@@ -1,0 +1,63 @@
+# ==========================
+# Go (backend)
+# ==========================
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Code coverage and profiles
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency directories
+/vendor/
+
+# env files
+.env
+
+# ==========================
+# Node / Frontend
+# ==========================
+
+# Node modules
+node_modules/
+
+# Build / dist folders
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# Editor / IDE
+# ==========================
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# ==========================
+# System files
+# ==========================
+
+.DS_Store
+Thumbs.db
